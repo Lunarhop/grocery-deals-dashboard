@@ -1,0 +1,3410 @@
+[
+  {
+    "date": "2025-06-19",
+    "store": "Kroger",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.85,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 7.05,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.14,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.98,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.97,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 6.3,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.88,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.86,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.52,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.79,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.89,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 14.06,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.48,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.65,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.58,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.81,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.82,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.99,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 5.06,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.63,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.23,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.65,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.39,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.17,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 11.04,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 10.44,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.28,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Aldi",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.18,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.62,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.59,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 4.99,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.02,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 4.56,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.49,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.57,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.17,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.56,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.23,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 10.37,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.8,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 6.75,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 5.56,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.12,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.74,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.49,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 3.8,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.21,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.5,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 5.74,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.74,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.89,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.49,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.64,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.61,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Walmart",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.43,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.93,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.15,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.17,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.39,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.73,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.24,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.89,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.48,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.69,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.01,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 11.86,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.78,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.03,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.92,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.74,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.54,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.76,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.51,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.27,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.08,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.0,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.08,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.72,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.12,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.3,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.85,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Costco",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.03,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.13,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.05,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.11,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.37,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 4.84,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.91,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.79,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.42,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.62,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.97,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.35,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.81,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.13,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.63,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.98,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.14,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.08,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.65,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.54,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.18,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.28,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.17,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.02,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.16,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.15,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.13,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Sam's Club",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.69,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.94,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.33,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.72,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.64,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 4.71,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.63,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.72,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.44,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.75,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.14,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 11.73,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.07,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.44,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.12,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.69,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.87,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.97,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.64,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.42,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.06,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.58,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.54,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.66,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 8.68,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.0,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.12,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Gordon Food Service",
+    "location": "Burton",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.18,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.64,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.59,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.26,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 5.49,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.36,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.63,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 2.07,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.73,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.6,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.82,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 13.54,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.48,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.25,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.88,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.74,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.31,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.01,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.55,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.89,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.56,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.31,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.76,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.63,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 11.27,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.1,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.25,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Kroger",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.24,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.83,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.54,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.72,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 5.37,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.72,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.88,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 2.16,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.47,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.6,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.63,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.9,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.76,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.3,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.54,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.52,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.33,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.83,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.42,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.38,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.32,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 8.17,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.12,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.37,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.89,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.64,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.43,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Aldi",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.34,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.34,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.11,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.45,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.33,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.06,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.16,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.69,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.37,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.42,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.55,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 10.58,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.6,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 6.93,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.48,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.08,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.66,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.75,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 3.76,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.4,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.32,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 5.91,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.02,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 6.83,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 8.41,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 7.31,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.52,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Walmart",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.28,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.75,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.81,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.68,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.67,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.38,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.12,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 2.0,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.44,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.49,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.47,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.84,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.42,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.47,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.09,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 4.11,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.84,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.67,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.17,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.6,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.27,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.27,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.88,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.29,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.97,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.51,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.67,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Costco",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.6,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.43,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.41,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.71,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.87,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.08,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.15,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.99,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.55,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.67,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.56,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 14.25,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.31,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.13,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.89,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.79,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.04,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.08,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.59,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.52,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.68,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.36,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.19,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.36,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.95,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.57,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.91,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Sam's Club",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.65,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.82,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.08,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.91,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.57,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.51,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.08,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.78,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.31,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.57,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.94,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.13,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.88,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.77,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.84,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.74,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.94,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.0,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.06,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.8,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.99,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.05,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.83,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.67,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.89,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.52,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.87,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-12",
+    "store": "Gordon Food Service",
+    "location": "Burton",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.01,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.85,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.53,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.51,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.56,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.54,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.17,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.91,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.55,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.81,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.13,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.05,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.11,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.68,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 8.01,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 4.26,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.98,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.1,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.7,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.98,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.49,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.94,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.37,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.78,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.67,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.49,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.41,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Kroger",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.77,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.23,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.65,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.54,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 5.56,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.97,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.7,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.82,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.47,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.79,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.74,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 13.74,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.23,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.73,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.6,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 4.31,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.77,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.11,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.78,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.3,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.95,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.87,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.86,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.97,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.73,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.2,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.15,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Aldi",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.52,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.58,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.38,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.16,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 3.8,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.4,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.64,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.54,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.43,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.58,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.56,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 10.36,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.75,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 6.42,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 5.8,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.2,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.76,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.59,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 3.58,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.53,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.52,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.17,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.63,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 6.8,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 8.0,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.28,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.7,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Walmart",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.18,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.81,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.49,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.81,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.35,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.55,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.43,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.91,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.33,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.58,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.94,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.46,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.7,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.28,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 5.99,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.54,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.83,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.04,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.17,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.42,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.7,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.69,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.16,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.5,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.32,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.86,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.22,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Costco",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.32,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 7.03,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.36,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.81,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.75,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.54,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.18,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.85,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.54,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.63,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.35,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.14,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.56,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.75,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.61,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.34,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.16,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.14,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.76,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.42,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.21,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.2,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.85,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.74,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.77,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.19,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.95,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Sam's Club",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.71,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.08,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.76,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.82,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.24,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.12,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.09,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.87,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.57,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.71,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.52,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.32,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.03,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.76,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.18,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.76,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.87,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.82,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.74,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.48,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.46,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.11,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.24,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.21,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 8.92,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.92,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.95,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-06-05",
+    "store": "Gordon Food Service",
+    "location": "Burton",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.43,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.47,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.7,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.93,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.27,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.29,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.13,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.97,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.51,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.71,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.3,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 13.01,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.21,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.21,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.19,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 4.05,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.81,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.78,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.84,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.31,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.71,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.42,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.44,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.96,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.71,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.14,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.78,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Kroger",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.57,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 7.76,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.62,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.36,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.86,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.55,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.13,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.93,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.57,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.76,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.04,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 14.22,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 9.91,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 9.52,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.51,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.92,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.96,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.05,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.99,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.31,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.8,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.6,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.34,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.56,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.37,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.86,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.17,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Aldi",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.61,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.74,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.71,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.25,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.06,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 4.53,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.41,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.55,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.27,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.59,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.53,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.24,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 7.63,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.02,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.36,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.46,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.53,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.82,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.22,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.32,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.58,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 5.6,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.57,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 6.7,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.78,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.07,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.57,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Walmart",
+    "location": "Lapeer",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.63,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 5.84,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.91,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 4.94,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.4,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.32,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 3.46,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.76,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.47,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.47,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.82,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 11.74,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.78,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.0,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.34,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.68,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.05,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.64,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.46,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.06,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.8,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 7.07,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 5.03,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 6.68,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.56,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.37,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.11,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Costco",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 4.16,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.55,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 3.82,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.25,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.78,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 4.95,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.14,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.87,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.31,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.74,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.27,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 13.77,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.6,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 8.51,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.23,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.72,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.04,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 2.1,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.57,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 5.57,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 5.2,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.93,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.13,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 8.15,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 9.94,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.0,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.67,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Sam's Club",
+    "location": "Auburn Hills",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.83,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 6.74,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.18,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 5.87,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.39,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.07,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.1,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.88,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.48,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.53,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 4.78,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.08,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.55,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 7.95,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 6.1,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.76,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 2.84,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.8,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.52,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.12,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.97,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.11,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.33,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 6.97,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.88,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 9.69,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 2.61,
+        "unit": "16oz"
+      }
+    ]
+  },
+  {
+    "date": "2025-05-29",
+    "store": "Gordon Food Service",
+    "location": "Burton",
+    "items": [
+      {
+        "name": "Milk (Gallon)",
+        "price": 3.94,
+        "unit": "gallon"
+      },
+      {
+        "name": "Eggs (Dozen)",
+        "price": 7.09,
+        "unit": "dozen"
+      },
+      {
+        "name": "Cheese (8oz)",
+        "price": 4.35,
+        "unit": "8oz"
+      },
+      {
+        "name": "Peanut Butter (18oz)",
+        "price": 6.4,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Jelly (18oz)",
+        "price": 4.83,
+        "unit": "18oz"
+      },
+      {
+        "name": "Organic Fruit (1lb)",
+        "price": 5.48,
+        "unit": "lb"
+      },
+      {
+        "name": "Organic Spaghetti Sauce (24oz)",
+        "price": 4.66,
+        "unit": "24oz"
+      },
+      {
+        "name": "Organic Black Beans (15oz)",
+        "price": 1.88,
+        "unit": "15oz"
+      },
+      {
+        "name": "Kidney Beans (15oz)",
+        "price": 1.48,
+        "unit": "15oz"
+      },
+      {
+        "name": "White Navy Beans (15oz)",
+        "price": 1.69,
+        "unit": "15oz"
+      },
+      {
+        "name": "Dawn Dish Soap (24oz)",
+        "price": 5.58,
+        "unit": "24oz"
+      },
+      {
+        "name": "Toilet Paper (12 rolls)",
+        "price": 12.81,
+        "unit": "12 rolls"
+      },
+      {
+        "name": "Paper Towels (6 rolls)",
+        "price": 8.09,
+        "unit": "6 rolls"
+      },
+      {
+        "name": "Scrub Daddy Sponges (3pk)",
+        "price": 9.1,
+        "unit": "3pk"
+      },
+      {
+        "name": "Irish Butter (8oz)",
+        "price": 7.41,
+        "unit": "8oz"
+      },
+      {
+        "name": "Sourdough Bread (24oz)",
+        "price": 3.56,
+        "unit": "24oz"
+      },
+      {
+        "name": "Taco Shells (12ct)",
+        "price": 3.26,
+        "unit": "12ct"
+      },
+      {
+        "name": "Cream of Mushroom Soup (10.5oz)",
+        "price": 1.78,
+        "unit": "10.5oz"
+      },
+      {
+        "name": "Frozen Organic Vegetables (16oz)",
+        "price": 4.58,
+        "unit": "16oz"
+      },
+      {
+        "name": "Frozen Organic Fruit (16oz)",
+        "price": 6.04,
+        "unit": "16oz"
+      },
+      {
+        "name": "Breakfast Sausage (1lb)",
+        "price": 4.89,
+        "unit": "lb"
+      },
+      {
+        "name": "Bacon (1lb)",
+        "price": 6.45,
+        "unit": "lb"
+      },
+      {
+        "name": "Ham (1lb)",
+        "price": 6.21,
+        "unit": "lb"
+      },
+      {
+        "name": "Kevin's Natural Foods Dinners",
+        "price": 7.13,
+        "unit": "each"
+      },
+      {
+        "name": "Boar's Head Lunch Meat (1lb)",
+        "price": 10.82,
+        "unit": "lb"
+      },
+      {
+        "name": "Boar's Head Deli Cheese (1lb)",
+        "price": 8.6,
+        "unit": "lb"
+      },
+      {
+        "name": "Sour Cream (16oz)",
+        "price": 3.31,
+        "unit": "16oz"
+      }
+    ]
+  }
+]

@@ -1,516 +1,758 @@
-// Grocery data from the provided JSON
-const groceryData = {
-  "stores": [
-    {
-      "name": "Kroger",
-      "location": "Lapeer, MI",
-      "address": "540 S Main St, Lapeer, MI 48446",
-      "distance": "15 miles",
-      "type": "Traditional Grocery"
-    },
-    {
-      "name": "Aldi", 
-      "location": "Lapeer, MI",
-      "address": "815 East St, Lapeer, MI 48446",
-      "distance": "15 miles",
-      "type": "Discount Grocery"
-    },
-    {
-      "name": "Walmart",
-      "location": "Lapeer, MI", 
-      "address": "555 E Genesee St, Lapeer, MI 48446",
-      "distance": "15 miles",
-      "type": "Supercenter"
-    },
-    {
-      "name": "Costco",
-      "location": "Auburn Hills, MI",
-      "address": "400 Brown Rd, Auburn Hills, MI 48326", 
-      "distance": "45 miles",
-      "type": "Warehouse Club"
-    },
-    {
-      "name": "Sam's Club",
-      "location": "Auburn Hills, MI",
-      "address": "4350 Joslyn Rd, Auburn Hills, MI 48326",
-      "distance": "45 miles", 
-      "type": "Warehouse Club"
-    },
-    {
-      "name": "GFS (Burton)",
-      "location": "Burton, MI",
-      "address": "2170 S Center Rd, Burton, MI 48519",
-      "distance": "35 miles",
-      "type": "Foodservice Wholesale"
-    },
-    {
-      "name": "GFS (Rochester)", 
-      "location": "Rochester, MI",
-      "address": "Rochester, MI",
-      "distance": "50 miles",
-      "type": "Foodservice Wholesale"
-    }
-  ],
-  "items": [
-    {
-      "name": "Milk (Gallon)",
-      "category": "Essentials",
-      "unit": "Gallon",
-      "prices": {
-        "Kroger": {"price": 3.59, "regular_price": 3.59, "on_sale": false},
-        "Aldi": {"price": 2.88, "regular_price": 2.88, "on_sale": false},
-        "Walmart": {"price": 2.89, "regular_price": 2.89, "on_sale": false},
-        "Costco": {"price": 4.22, "regular_price": 4.22, "on_sale": false, "note": "2-pack"},
-        "Sam's Club": {"price": 3.63, "regular_price": 4.07, "on_sale": true, "note": "2-pack"},
-        "GFS (Burton)": {"price": 3.11, "regular_price": 3.11, "on_sale": false},
-        "GFS (Rochester)": {"price": 3.00, "regular_price": 3.43, "on_sale": true}
-      }
-    },
-    {
-      "name": "Eggs (Dozen)",
-      "category": "Essentials", 
-      "unit": "Dozen",
-      "prices": {
-        "Kroger": {"price": 2.99, "regular_price": 2.99, "on_sale": false},
-        "Aldi": {"price": 2.49, "regular_price": 2.49, "on_sale": false},
-        "Walmart": {"price": 2.68, "regular_price": 2.68, "on_sale": false},
-        "Costco": {"price": 3.89, "regular_price": 3.89, "on_sale": false},
-        "Sam's Club": {"price": 3.45, "regular_price": 3.45, "on_sale": false},
-        "GFS (Burton)": {"price": 2.19, "regular_price": 2.89, "on_sale": true},
-        "GFS (Rochester)": {"price": 2.33, "regular_price": 2.33, "on_sale": false}
-      }
-    },
-    {
-      "name": "Dawn Dish Soap (22oz)",
-      "category": "Household",
-      "unit": "22oz bottle", 
-      "prices": {
-        "Kroger": {"price": 3.49, "regular_price": 3.49, "on_sale": false},
-        "Aldi": {"price": 2.99, "regular_price": 2.99, "on_sale": false},
-        "Walmart": {"price": 3.27, "regular_price": 3.27, "on_sale": false},
-        "Costco": {"price": 3.89, "regular_price": 3.89, "on_sale": false},
-        "Sam's Club": {"price": 3.67, "regular_price": 3.67, "on_sale": false},
-        "GFS (Burton)": {"price": 2.89, "regular_price": 3.49, "on_sale": true},
-        "GFS (Rochester)": {"price": 2.95, "regular_price": 2.95, "on_sale": false}
-      }
-    },
-    {
-      "name": "Irish Butter (8oz)",
-      "category": "Specialty",
-      "unit": "8oz block",
-      "prices": {
-        "Kroger": {"price": 5.49, "regular_price": 5.49, "on_sale": false},
-        "Aldi": {"price": 4.29, "regular_price": 4.29, "on_sale": false},
-        "Walmart": {"price": 4.98, "regular_price": 4.98, "on_sale": false},
-        "Costco": {"price": 5.99, "regular_price": 5.99, "on_sale": false},
-        "Sam's Club": {"price": 5.79, "regular_price": 5.79, "on_sale": false},
-        "GFS (Burton)": {"price": 4.49, "regular_price": 4.49, "on_sale": false},
-        "GFS (Rochester)": {"price": 3.99, "regular_price": 5.29, "on_sale": true}
-      }
-    },
-    {
-      "name": "Bacon (12oz)",
-      "category": "Meat & Deli",
-      "unit": "12oz package",
-      "prices": {
-        "Kroger": {"price": 6.49, "regular_price": 6.49, "on_sale": false},
-        "Aldi": {"price": 4.99, "regular_price": 4.99, "on_sale": false},
-        "Walmart": {"price": 5.68, "regular_price": 5.68, "on_sale": false},
-        "Costco": {"price": 7.99, "regular_price": 7.99, "on_sale": false},
-        "Sam's Club": {"price": 4.89, "regular_price": 6.99, "on_sale": true},
-        "GFS (Burton)": {"price": 5.29, "regular_price": 5.29, "on_sale": false},
-        "GFS (Rochester)": {"price": 5.89, "regular_price": 5.89, "on_sale": false}
-      }
-    }
-  ],
-  "last_updated": "June 19, 2025, 7:07 AM EDT"
+// Michigan Grocery Price Comparison Dashboard
+
+// Global data storage
+let groceryData = [];
+let currentData = [];
+let cartItems = [];
+let priceChart = null;
+
+// Stores we're tracking
+const stores = ['Kroger', 'Aldi', 'Walmart', 'Costco'];
+const storeLocations = {
+  'Kroger': 'Lapeer',
+  'Aldi': 'Lapeer',
+  'Walmart': 'Lapeer',
+  'Costco': 'Auburn Hills'
 };
 
-// Global state
-let activeStores = ['Kroger', 'Aldi', 'Walmart', 'Costco', 'Sam\'s Club', 'GFS (Burton)', 'GFS (Rochester)'];
-let activeCategory = 'all';
-let currentView = 'table';
-let currentSort = 'name';
+// DOM Elements
+const categoryFilter = document.getElementById('categoryFilter');
+const searchInput = document.getElementById('searchInput');
+const dateRange = document.getElementById('dateRange');
+const priceTableBody = document.getElementById('priceTableBody');
+const cartItemsContainer = document.getElementById('cartItems');
+const clearCartBtn = document.getElementById('clearCart');
+const trendItemSelect = document.getElementById('trendItemSelect');
+const sortNameBtn = document.getElementById('sortName');
+const sortPriceBtn = document.getElementById('sortPrice');
 
-// DOM elements
-const currentDateEl = document.getElementById('current-date');
-const lastUpdatedEl = document.getElementById('last-updated');
-const storeToggles = document.querySelectorAll('.store-toggle');
-const categoryFilter = document.getElementById('category-filter');
-const viewButtons = document.querySelectorAll('.view-btn');
-const tableView = document.getElementById('table-view');
-const cardView = document.getElementById('card-view');
-const sortSelect = document.getElementById('sort-select');
-const bestDealsGrid = document.getElementById('best-deals-grid');
-const priceTableBody = document.getElementById('price-table-body');
-const cardsGrid = document.getElementById('cards-grid');
-const calculatorItems = document.getElementById('calculator-items');
-const savingsTotal = document.getElementById('savings-total');
-const savingsDetails = document.getElementById('savings-details');
-const comparisonStore = document.getElementById('comparison-store');
-const addAlertBtn = document.getElementById('add-alert-btn');
+// Store total elements
+const krogerTotal = document.getElementById('krogerTotal');
+const aldiTotal = document.getElementById('aldiTotal');
+const walmartTotal = document.getElementById('walmartTotal');
+const costcoTotal = document.getElementById('costcoTotal');
+const bestTotal = document.getElementById('bestTotal');
+const totalSavings = document.getElementById('totalSavings');
+const shoppingStrategy = document.getElementById('shoppingStrategy');
 
-// Initialize the dashboard
-document.addEventListener('DOMContentLoaded', function() {
-    initializeDashboard();
+// Sample grocery data (fallback if API fails)
+const sampleData = [
+  {
+    "date": "2025-06-19",
+    "store": "Kroger",
+    "location": "Lapeer",
+    "items": [
+      {"name": "Milk (Gallon)", "price": 3.85, "unit": "gallon", "category": "Essentials"},
+      {"name": "Eggs (Dozen)", "price": 7.05, "unit": "dozen", "category": "Essentials"},
+      {"name": "Cheese (8oz)", "price": 4.14, "unit": "8oz", "category": "Essentials"},
+      {"name": "Peanut Butter (18oz)", "price": 6.98, "unit": "18oz", "category": "Essentials"},
+      {"name": "Dawn Dish Soap (24oz)", "price": 4.89, "unit": "24oz", "category": "Household"},
+      {"name": "Toilet Paper (12 rolls)", "price": 14.06, "unit": "12 rolls", "category": "Household"},
+      {"name": "Irish Butter (8oz)", "price": 7.58, "unit": "8oz", "category": "Specialty"},
+      {"name": "Bacon (1lb)", "price": 7.65, "unit": "lb", "category": "Meat & Deli"}
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Aldi",
+    "location": "Lapeer",
+    "items": [
+      {"name": "Milk (Gallon)", "price": 3.21, "unit": "gallon", "category": "Essentials"},
+      {"name": "Eggs (Dozen)", "price": 5.85, "unit": "dozen", "category": "Essentials"},
+      {"name": "Cheese (8oz)", "price": 3.68, "unit": "8oz", "category": "Essentials"},
+      {"name": "Peanut Butter (18oz)", "price": 5.45, "unit": "18oz", "category": "Essentials"},
+      {"name": "Dawn Dish Soap (24oz)", "price": 4.25, "unit": "24oz", "category": "Household"},
+      {"name": "Toilet Paper (12 rolls)", "price": 10.95, "unit": "12 rolls", "category": "Household"},
+      {"name": "Irish Butter (8oz)", "price": 6.25, "unit": "8oz", "category": "Specialty"},
+      {"name": "Bacon (1lb)", "price": 5.99, "unit": "lb", "category": "Meat & Deli"}
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Walmart",
+    "location": "Lapeer",
+    "items": [
+      {"name": "Milk (Gallon)", "price": 3.45, "unit": "gallon", "category": "Essentials"},
+      {"name": "Eggs (Dozen)", "price": 6.25, "unit": "dozen", "category": "Essentials"},
+      {"name": "Cheese (8oz)", "price": 3.89, "unit": "8oz", "category": "Essentials"},
+      {"name": "Peanut Butter (18oz)", "price": 5.85, "unit": "18oz", "category": "Essentials"},
+      {"name": "Dawn Dish Soap (24oz)", "price": 4.55, "unit": "24oz", "category": "Household"},
+      {"name": "Toilet Paper (12 rolls)", "price": 11.95, "unit": "12 rolls", "category": "Household"},
+      {"name": "Irish Butter (8oz)", "price": 6.85, "unit": "8oz", "category": "Specialty"},
+      {"name": "Bacon (1lb)", "price": 6.45, "unit": "lb", "category": "Meat & Deli"}
+    ]
+  },
+  {
+    "date": "2025-06-19",
+    "store": "Costco",
+    "location": "Auburn Hills",
+    "items": [
+      {"name": "Milk (Gallon)", "price": 3.65, "unit": "gallon", "category": "Essentials"},
+      {"name": "Eggs (Dozen)", "price": 6.85, "unit": "dozen", "category": "Essentials"},
+      {"name": "Cheese (8oz)", "price": 4.05, "unit": "8oz", "category": "Essentials"},
+      {"name": "Peanut Butter (18oz)", "price": 6.25, "unit": "18oz", "category": "Essentials"},
+      {"name": "Dawn Dish Soap (24oz)", "price": 4.75, "unit": "24oz", "category": "Household"},
+      {"name": "Toilet Paper (12 rolls)", "price": 13.25, "unit": "12 rolls", "category": "Household"},
+      {"name": "Irish Butter (8oz)", "price": 7.15, "unit": "8oz", "category": "Specialty"},
+      {"name": "Bacon (1lb)", "price": 6.85, "unit": "lb", "category": "Meat & Deli"}
+    ]
+  }
+];
+
+// Initialize the application
+async function initApp() {
+  try {
+    // Try to fetch grocery data from API, fallback to sample data
+    try {
+      const response = await fetch('https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/7e0a5164a6ee445a16c1ff09bc90d118/211d804c-7faa-4c1c-a3e6-eba9ce4a244a/5688b789.json');
+      if (response.ok) {
+        groceryData = await response.json();
+      } else {
+        throw new Error('API fetch failed');
+      }
+    } catch (apiError) {
+      console.log('Using sample data due to API error:', apiError);
+      groceryData = sampleData;
+    }
+    
+    // Generate historical data for trends
+    groceryData = generateHistoricalData(groceryData);
+    
+    // Setup event listeners
     setupEventListeners();
-    renderData();
-});
-
-function initializeDashboard() {
-    // Set current date
-    const now = new Date();
-    currentDateEl.textContent = now.toLocaleDateString('en-US', {
-        weekday: 'long',
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
-    });
     
-    // Set last updated
-    lastUpdatedEl.textContent = groceryData.last_updated;
+    // Populate item select for trend chart
+    populateItemSelect();
+    
+    // Display initial data
+    filterAndDisplayData();
+    
+    // Initialize empty cart display
+    displayCart();
+    updateCartTotals();
+    
+    console.log('Dashboard initialized successfully');
+    console.log('Grocery data loaded:', groceryData.length, 'entries');
+  } catch (error) {
+    console.error('Failed to initialize app:', error);
+    // Use sample data as final fallback
+    groceryData = sampleData;
+    groceryData = generateHistoricalData(groceryData);
+    setupEventListeners();
+    populateItemSelect();
+    filterAndDisplayData();
+    displayCart();
+    updateCartTotals();
+  }
 }
 
+// Setup all event listeners
 function setupEventListeners() {
-    // Store toggles
-    storeToggles.forEach(toggle => {
-        toggle.addEventListener('click', function() {
-            const store = this.dataset.store;
-            this.classList.toggle('active');
-            
-            if (this.classList.contains('active')) {
-                if (!activeStores.includes(store)) {
-                    activeStores.push(store);
-                }
-            } else {
-                activeStores = activeStores.filter(s => s !== store);
-            }
-            renderData();
-        });
-    });
-    
-    // Category filter
-    categoryFilter.addEventListener('change', function() {
-        activeCategory = this.value;
-        renderData();
-    });
-    
-    // View toggle
-    viewButtons.forEach(btn => {
-        btn.addEventListener('click', function() {
-            const view = this.dataset.view;
-            currentView = view;
-            
-            viewButtons.forEach(b => b.classList.remove('active'));
-            this.classList.add('active');
-            
-            if (view === 'table') {
-                tableView.classList.remove('hidden');
-                cardView.classList.add('hidden');
-                viewButtons[0].classList.add('btn--primary');
-                viewButtons[0].classList.remove('btn--outline');
-                viewButtons[1].classList.add('btn--outline');
-                viewButtons[1].classList.remove('btn--primary');
-            } else {
-                tableView.classList.add('hidden');
-                cardView.classList.remove('hidden');
-                viewButtons[1].classList.add('btn--primary');
-                viewButtons[1].classList.remove('btn--outline');
-                viewButtons[0].classList.add('btn--outline');
-                viewButtons[0].classList.remove('btn--primary');
-            }
-        });
-    });
-    
-    // Sort select
-    sortSelect.addEventListener('change', function() {
-        currentSort = this.value;
-        renderData();
-    });
-    
-    // Comparison store for calculator
-    comparisonStore.addEventListener('change', updateSavingsCalculator);
-    
-    // Add alert button
-    addAlertBtn.addEventListener('click', function() {
-        const item = document.getElementById('alert-item').value;
-        const price = document.getElementById('alert-price').value;
-        const store = document.getElementById('alert-store').value;
-        
-        if (item && price) {
-            // Mock alert creation - in real app this would save to backend
-            alert(`Price alert created for ${item} when below $${price} ${store ? 'at ' + store : 'at any store'}`);
-            
-            // Clear form
-            document.getElementById('alert-item').value = '';
-            document.getElementById('alert-price').value = '';
-            document.getElementById('alert-store').value = '';
-        }
-    });
-}
-
-function renderData() {
-    const filteredItems = getFilteredItems();
-    const sortedItems = sortItems(filteredItems);
-    
-    renderTable(sortedItems);
-    renderCards(sortedItems);
-    renderBestDeals();
-    renderCalculatorItems();
-}
-
-function getFilteredItems() {
-    return groceryData.items.filter(item => {
-        return activeCategory === 'all' || item.category === activeCategory;
-    });
-}
-
-function sortItems(items) {
-    return [...items].sort((a, b) => {
-        switch (currentSort) {
-            case 'name':
-                return a.name.localeCompare(b.name);
-            case 'category':
-                return a.category.localeCompare(b.category);
-            case 'lowest-price':
-                const aMin = Math.min(...Object.values(a.prices).map(p => p.price));
-                const bMin = Math.min(...Object.values(b.prices).map(p => p.price));
-                return aMin - bMin;
-            case 'highest-savings':
-                const aSavings = getMaxSavings(a);
-                const bSavings = getMaxSavings(b);
-                return bSavings - aSavings;
-            default:
-                return 0;
-        }
-    });
-}
-
-function getMaxSavings(item) {
-    let maxSavings = 0;
-    Object.values(item.prices).forEach(price => {
-        if (price.on_sale) {
-            const savings = price.regular_price - price.price;
-            maxSavings = Math.max(maxSavings, savings);
-        }
-    });
-    return maxSavings;
-}
-
-function renderTable(items) {
-    priceTableBody.innerHTML = '';
-    
-    items.forEach(item => {
-        const row = document.createElement('tr');
-        
-        // Get price info
-        const prices = Object.entries(item.prices);
-        const minPrice = Math.min(...prices.map(([_, p]) => p.price));
-        const maxPrice = Math.max(...prices.map(([_, p]) => p.price));
-        const bestStore = prices.find(([_, p]) => p.price === minPrice)[0];
-        
-        row.innerHTML = `
-            <td>
-                <strong>${item.name}</strong>
-                <div class="item-category">${item.category}</div>
-            </td>
-            <td class="item-category">${item.category}</td>
-            ${['Kroger', 'Aldi', 'Walmart', 'Costco', 'Sam\'s Club', 'GFS (Burton)', 'GFS (Rochester)'].map(store => {
-                const priceData = item.prices[store];
-                const isActive = activeStores.includes(store);
-                const isBest = priceData.price === minPrice && isActive;
-                const isWorst = priceData.price === maxPrice && isActive;
-                const classes = ['price-cell'];
-                
-                if (isBest) classes.push('price-best');
-                if (isWorst && prices.length > 1) classes.push('price-worst');
-                if (priceData.on_sale) classes.push('price-sale');
-                if (!isActive) classes.push('text-secondary');
-                
-                return `
-                    <td class="${classes.join(' ')}" style="${!isActive ? 'opacity: 0.3;' : ''}">
-                        $${priceData.price.toFixed(2)}
-                        ${priceData.note ? `<br><small>${priceData.note}</small>` : ''}
-                    </td>
-                `;
-            }).join('')}
-            <td class="text-center">
-                <strong class="text-success">${bestStore}</strong><br>
-                <span class="text-success">$${minPrice.toFixed(2)}</span>
-            </td>
-        `;
-        
-        priceTableBody.appendChild(row);
-    });
-}
-
-function renderCards(items) {
-    cardsGrid.innerHTML = '';
-    
-    items.forEach(item => {
-        const card = document.createElement('div');
-        card.className = 'item-card';
-        
-        const prices = Object.entries(item.prices);
-        const minPrice = Math.min(...prices.map(([_, p]) => p.price));
-        const bestStore = prices.find(([_, p]) => p.price === minPrice)[0];
-        
-        card.innerHTML = `
-            <div class="item-card-header">
-                <h4 class="item-name">${item.name}</h4>
-                <span class="item-category-badge">${item.category}</span>
-            </div>
-            <div class="store-prices">
-                ${prices.map(([store, priceData]) => {
-                    const isActive = activeStores.includes(store);
-                    const isBest = priceData.price === minPrice && isActive;
-                    
-                    return `
-                        <div class="store-price-row ${isBest ? 'price-best' : ''}" style="${!isActive ? 'opacity: 0.3;' : ''}">
-                            <span class="store-name">
-                                ${store}
-                                ${priceData.on_sale ? ' 🏷️' : ''}
-                                ${priceData.note ? ` (${priceData.note})` : ''}
-                            </span>
-                            <span class="store-price ${isBest ? 'text-success' : ''}">
-                                $${priceData.price.toFixed(2)}
-                            </span>
-                        </div>
-                    `;
-                }).join('')}
-            </div>
-        `;
-        
-        cardsGrid.appendChild(card);
-    });
-}
-
-function renderBestDeals() {
-    const deals = [];
-    
-    groceryData.items.forEach(item => {
-        Object.entries(item.prices).forEach(([store, priceData]) => {
-            if (priceData.on_sale && activeStores.includes(store)) {
-                const savings = priceData.regular_price - priceData.price;
-                const savingsPercent = (savings / priceData.regular_price) * 100;
-                
-                deals.push({
-                    item: item.name,
-                    category: item.category,
-                    store,
-                    currentPrice: priceData.price,
-                    regularPrice: priceData.regular_price,
-                    savings,
-                    savingsPercent,
-                    note: priceData.note
-                });
-            }
-        });
-    });
-    
-    // Sort by savings amount and take top 5
-    deals.sort((a, b) => b.savings - a.savings);
-    const topDeals = deals.slice(0, 5);
-    
-    bestDealsGrid.innerHTML = '';
-    
-    topDeals.forEach(deal => {
-        const card = document.createElement('div');
-        card.className = 'deal-card';
-        
-        card.innerHTML = `
-            <div class="deal-header">
-                <div>
-                    <div class="deal-item-name">${deal.item}</div>
-                    <div class="deal-category">${deal.category}</div>
-                </div>
-                <div class="deal-store">${deal.store}</div>
-            </div>
-            <div class="deal-price">
-                <span class="current-price">$${deal.currentPrice.toFixed(2)}</span>
-                <span class="regular-price">$${deal.regularPrice.toFixed(2)}</span>
-            </div>
-            <div class="deal-savings">
-                Save $${deal.savings.toFixed(2)} (${deal.savingsPercent.toFixed(0)}% off)
-            </div>
-            ${deal.note ? `<div class="deal-note">${deal.note}</div>` : ''}
-        `;
-        
-        bestDealsGrid.appendChild(card);
-    });
-}
-
-function renderCalculatorItems() {
-    calculatorItems.innerHTML = '';
-    
-    groceryData.items.forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'calculator-item';
-        
-        div.innerHTML = `
-            <input type="checkbox" id="calc-${item.name}" data-item="${item.name}">
-            <label for="calc-${item.name}">${item.name} (${item.category})</label>
-        `;
-        
-        calculatorItems.appendChild(div);
-        
-        // Add event listener for checkbox
-        div.querySelector('input').addEventListener('change', updateSavingsCalculator);
-    });
-}
-
-function updateSavingsCalculator() {
-    const checkedItems = Array.from(calculatorItems.querySelectorAll('input:checked'))
-        .map(input => input.dataset.item);
-    
-    const comparisonStoreValue = comparisonStore.value;
-    
-    if (checkedItems.length === 0) {
-        savingsTotal.textContent = '$0.00';
-        savingsDetails.innerHTML = '<p>Select items to see potential savings</p>';
-        return;
+  // Filter change events
+  categoryFilter.addEventListener('change', filterAndDisplayData);
+  searchInput.addEventListener('input', filterAndDisplayData);
+  dateRange.addEventListener('change', filterAndDisplayData);
+  
+  // Store checkbox events
+  stores.forEach(store => {
+    const checkbox = document.getElementById(store.toLowerCase());
+    if (checkbox) {
+      checkbox.addEventListener('change', filterAndDisplayData);
     }
+  });
+  
+  // Sort buttons
+  sortNameBtn.addEventListener('click', () => sortData('name'));
+  sortPriceBtn.addEventListener('click', () => sortData('price'));
+  
+  // Cart management
+  clearCartBtn.addEventListener('click', clearCart);
+  
+  // Trend chart item selection
+  trendItemSelect.addEventListener('change', updatePriceChart);
+}
+
+// Filter and display data based on current selections
+function filterAndDisplayData() {
+  // Get filter values
+  const category = categoryFilter.value;
+  const searchTerm = searchInput.value.toLowerCase();
+  const isCurrentWeek = dateRange.value === 'current';
+  
+  // Get selected stores
+  const selectedStores = stores.filter(store => {
+    const checkbox = document.getElementById(store.toLowerCase());
+    return checkbox && checkbox.checked;
+  });
+  
+  // Find most recent date for "current week"
+  const dates = [...new Set(groceryData.map(item => item.date))].sort().reverse();
+  const currentDate = dates[0]; // Most recent date
+  
+  // Filter data by date first
+  let filteredData = isCurrentWeek 
+    ? groceryData.filter(item => item.date === currentDate)
+    : groceryData;
+  
+  // Filter by selected stores
+  filteredData = filteredData.filter(item => selectedStores.includes(item.store));
+  
+  // Transform data for easier use
+  currentData = transformDataForDisplay(filteredData);
+  
+  // Apply category and search filters to the transformed data
+  if (category !== 'all') {
+    currentData = currentData.filter(item => item.category === category);
+  }
+  
+  if (searchTerm) {
+    currentData = currentData.filter(item => 
+      item.name.toLowerCase().includes(searchTerm)
+    );
+  }
+  
+  // Display the data
+  displayPriceTable(currentData);
+  
+  // Update cart calculations in case store visibility changed
+  updateCartTotals();
+}
+
+// Transform data from API format to display format
+function transformDataForDisplay(data) {
+  // Get all unique items across stores
+  const allItems = new Set();
+  data.forEach(storeData => {
+    storeData.items.forEach(item => {
+      allItems.add(item.name);
+    });
+  });
+  
+  // Create a map of store prices for each item
+  const displayItems = [];
+  
+  allItems.forEach(itemName => {
+    const itemData = {
+      name: itemName,
+      unit: '',
+      category: '',
+      prices: {}
+    };
     
-    let totalSavings = 0;
-    let totalBestPrice = 0;
-    let totalComparisonPrice = 0;
-    const details = [];
-    
-    checkedItems.forEach(itemName => {
-        const item = groceryData.items.find(i => i.name === itemName);
-        if (!item) return;
-        
-        // Find best price among active stores
-        const activePrices = Object.entries(item.prices)
-            .filter(([store]) => activeStores.includes(store))
-            .map(([store, price]) => ({ store, ...price }));
-        
-        const bestPrice = Math.min(...activePrices.map(p => p.price));
-        const bestStore = activePrices.find(p => p.price === bestPrice).store;
-        
-        const comparisonPrice = item.prices[comparisonStoreValue]?.price || bestPrice;
-        
-        totalBestPrice += bestPrice;
-        totalComparisonPrice += comparisonPrice;
-        
-        const itemSavings = comparisonPrice - bestPrice;
-        if (itemSavings > 0) {
-            details.push(`${itemName}: Save $${itemSavings.toFixed(2)} at ${bestStore}`);
+    // Find this item in each store
+    data.forEach(storeData => {
+      const storeItem = storeData.items.find(i => i.name === itemName);
+      if (storeItem) {
+        itemData.prices[storeData.store] = storeItem.price;
+        // Set unit and category from the first store that has this item
+        if (!itemData.unit && storeItem.unit) {
+          itemData.unit = storeItem.unit;
         }
+        if (!itemData.category && storeItem.category) {
+          itemData.category = storeItem.category;
+        }
+      }
     });
     
-    totalSavings = totalComparisonPrice - totalBestPrice;
+    // Add best price and savings info
+    const availablePrices = Object.values(itemData.prices).filter(p => p !== undefined);
+    if (availablePrices.length > 0) {
+      itemData.bestPrice = Math.min(...availablePrices);
+      itemData.highestPrice = Math.max(...availablePrices);
+      itemData.savings = itemData.highestPrice - itemData.bestPrice;
+      itemData.savingsPercent = Math.round((itemData.savings / itemData.highestPrice) * 100);
+      
+      // Find which store has the best price
+      for (const [store, price] of Object.entries(itemData.prices)) {
+        if (price === itemData.bestPrice) {
+          itemData.bestStore = store;
+          break;
+        }
+      }
+      
+      displayItems.push(itemData);
+    }
+  });
+  
+  return displayItems;
+}
+
+// Display data in the price comparison table
+function displayPriceTable(items) {
+  priceTableBody.innerHTML = '';
+  
+  if (items.length === 0) {
+    const row = document.createElement('tr');
+    row.innerHTML = `<td colspan="8" style="text-align: center; padding: var(--space-16);">No items found matching your filters.</td>`;
+    priceTableBody.appendChild(row);
+    return;
+  }
+  
+  items.forEach(item => {
+    const row = document.createElement('tr');
     
-    savingsTotal.textContent = `$${totalSavings.toFixed(2)}`;
+    // Item name and unit
+    const itemCell = document.createElement('td');
+    itemCell.innerHTML = `
+      <div style="font-weight: var(--font-weight-medium);">${item.name}</div>
+      <small style="color: var(--color-text-secondary);">${item.unit}</small>
+    `;
+    row.appendChild(itemCell);
     
-    if (details.length > 0) {
-        savingsDetails.innerHTML = `
-            <p><strong>Savings breakdown:</strong></p>
-            <ul>${details.map(d => `<li>${d}</li>`).join('')}</ul>
-            <p>Total if shopping at ${comparisonStoreValue}: $${totalComparisonPrice.toFixed(2)}</p>
-            <p>Total with best deals: $${totalBestPrice.toFixed(2)}</p>
-        `;
+    // Price for each store
+    stores.forEach(store => {
+      const cell = document.createElement('td');
+      const price = item.prices[store];
+      const isBestPrice = price === item.bestPrice;
+      
+      if (isBestPrice) {
+        cell.className = 'best-price';
+      }
+      
+      cell.textContent = price ? '$' + price.toFixed(2) : '-';
+      row.appendChild(cell);
+    });
+    
+    // Best deal column
+    const bestDealCell = document.createElement('td');
+    bestDealCell.textContent = item.bestStore || '-';
+    row.appendChild(bestDealCell);
+    
+    // Savings column
+    const savingsCell = document.createElement('td');
+    if (item.savingsPercent > 0) {
+      savingsCell.innerHTML = `<span class="savings-percentage">${item.savingsPercent}%</span>`;
     } else {
-        savingsDetails.innerHTML = `<p>${comparisonStoreValue} already has the best prices for selected items!</p>`;
+      savingsCell.textContent = '-';
     }
+    row.appendChild(savingsCell);
+    
+    // Add to cart button
+    const actionCell = document.createElement('td');
+    const addButton = document.createElement('button');
+    addButton.className = 'add-to-cart';
+    addButton.textContent = 'Add to Cart';
+    addButton.onclick = () => addToCart(item);
+    actionCell.appendChild(addButton);
+    row.appendChild(actionCell);
+    
+    priceTableBody.appendChild(row);
+  });
 }
+
+// Sort the data by name or price
+function sortData(sortBy) {
+  if (sortBy === 'name') {
+    currentData.sort((a, b) => a.name.localeCompare(b.name));
+  } else if (sortBy === 'price') {
+    currentData.sort((a, b) => a.bestPrice - b.bestPrice);
+  }
+  
+  displayPriceTable(currentData);
+}
+
+// Add an item to the shopping cart
+function addToCart(item) {
+  console.log('Adding to cart:', item.name);
+  
+  // Check if item is already in cart
+  const existingItemIndex = cartItems.findIndex(cartItem => cartItem.name === item.name);
+  
+  if (existingItemIndex >= 0) {
+    cartItems[existingItemIndex].quantity += 1;
+  } else {
+    cartItems.push({
+      ...item,
+      quantity: 1
+    });
+  }
+  
+  // Update cart display and totals
+  displayCart();
+  updateCartTotals();
+  
+  console.log('Cart items:', cartItems.length);
+}
+
+// Display the shopping cart items
+function displayCart() {
+  if (cartItems.length === 0) {
+    cartItemsContainer.innerHTML = `<p class="empty-cart">Your cart is empty. Add items from the price table to see savings!</p>`;
+    return;
+  }
+  
+  cartItemsContainer.innerHTML = '';
+  
+  cartItems.forEach((item, index) => {
+    const cartItem = document.createElement('div');
+    cartItem.className = 'cart-item';
+    
+    cartItem.innerHTML = `
+      <div class="cart-item-info">
+        <span class="cart-item-name">${item.name}</span>
+        <span class="cart-item-unit">${item.unit}</span>
+      </div>
+      <div class="cart-item-controls">
+        <div class="quantity-control">
+          <button class="quantity-btn" onclick="updateQuantity(${index}, -1)">-</button>
+          <input type="number" min="1" value="${item.quantity}" class="quantity-input" onchange="setQuantity(${index}, this.value)">
+          <button class="quantity-btn" onclick="updateQuantity(${index}, 1)">+</button>
+        </div>
+        <span class="remove-item" onclick="removeFromCart(${index})">✕</span>
+      </div>
+    `;
+    
+    cartItemsContainer.appendChild(cartItem);
+  });
+}
+
+// Update item quantity in cart
+function updateQuantity(index, change) {
+  if (cartItems[index]) {
+    cartItems[index].quantity += change;
+    if (cartItems[index].quantity <= 0) {
+      cartItems.splice(index, 1);
+    }
+    displayCart();
+    updateCartTotals();
+  }
+}
+
+// Set specific quantity
+function setQuantity(index, value) {
+  const quantity = parseInt(value);
+  if (cartItems[index] && quantity >= 1) {
+    cartItems[index].quantity = quantity;
+    updateCartTotals();
+  }
+}
+
+// Remove item from cart
+function removeFromCart(index) {
+  cartItems.splice(index, 1);
+  displayCart();
+  updateCartTotals();
+}
+
+// Update cart totals and savings calculations
+function updateCartTotals() {
+  console.log('Updating cart totals for', cartItems.length, 'items');
+  
+  if (cartItems.length === 0) {
+    krogerTotal.textContent = '$0.00';
+    aldiTotal.textContent = '$0.00';
+    walmartTotal.textContent = '$0.00';
+    costcoTotal.textContent = '$0.00';
+    bestTotal.textContent = '$0.00';
+    totalSavings.textContent = '$0.00';
+    shoppingStrategy.innerHTML = 'Add items to see recommendations';
+    return;
+  }
+  
+  // Calculate totals for each store
+  const totals = {};
+  stores.forEach(store => {
+    totals[store] = 0;
+  });
+  
+  // Calculate the best possible combination
+  let bestCombinationTotal = 0;
+  const bestCombination = {};
+  
+  cartItems.forEach(item => {
+    // Calculate store totals
+    stores.forEach(store => {
+      if (item.prices[store]) {
+        totals[store] += item.prices[store] * item.quantity;
+      }
+    });
+    
+    // Find best store for this item
+    let bestStore = null;
+    let bestPrice = Infinity;
+    
+    stores.forEach(store => {
+      if (item.prices[store] && item.prices[store] < bestPrice) {
+        bestPrice = item.prices[store];
+        bestStore = store;
+      }
+    });
+    
+    if (bestStore) {
+      bestCombinationTotal += bestPrice * item.quantity;
+      
+      if (!bestCombination[bestStore]) {
+        bestCombination[bestStore] = [];
+      }
+      
+      bestCombination[bestStore].push({
+        name: item.name,
+        price: bestPrice,
+        quantity: item.quantity
+      });
+    }
+  });
+  
+  // Find worst store total (for max savings calculation)
+  const availableTotals = Object.values(totals).filter(total => total > 0);
+  const worstTotal = availableTotals.length > 0 ? Math.max(...availableTotals) : 0;
+  const maxSavings = worstTotal - bestCombinationTotal;
+  
+  // Update the UI
+  krogerTotal.textContent = totals.Kroger > 0 ? '$' + totals.Kroger.toFixed(2) : 'N/A';
+  aldiTotal.textContent = totals.Aldi > 0 ? '$' + totals.Aldi.toFixed(2) : 'N/A';
+  walmartTotal.textContent = totals.Walmart > 0 ? '$' + totals.Walmart.toFixed(2) : 'N/A';
+  costcoTotal.textContent = totals.Costco > 0 ? '$' + totals.Costco.toFixed(2) : 'N/A';
+  bestTotal.textContent = '$' + bestCombinationTotal.toFixed(2);
+  totalSavings.textContent = '$' + maxSavings.toFixed(2);
+  
+  // Generate shopping strategy recommendation
+  generateShoppingStrategy(bestCombination);
+  
+  console.log('Cart totals updated:', {
+    kroger: totals.Kroger,
+    aldi: totals.Aldi,
+    walmart: totals.Walmart,
+    costco: totals.Costco,
+    best: bestCombinationTotal,
+    savings: maxSavings
+  });
+}
+
+// Generate shopping strategy based on best combination
+function generateShoppingStrategy(bestCombination) {
+  if (Object.keys(bestCombination).length === 0) {
+    shoppingStrategy.innerHTML = 'No recommendations available.';
+    return;
+  }
+  
+  let strategyHTML = '';
+  
+  for (const [store, items] of Object.entries(bestCombination)) {
+    const total = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    
+    strategyHTML += `
+      <div style="margin-bottom: var(--space-16);">
+        <h5 style="margin-bottom: var(--space-8); color: var(--color-primary);">
+          Shop at ${store} (${storeLocations[store]}):
+        </h5>
+        <ul style="margin: 0; padding-left: var(--space-16);">
+          ${items.map(item => `
+            <li style="margin-bottom: var(--space-4);">
+              ${item.name} × ${item.quantity} = $${(item.price * item.quantity).toFixed(2)}
+            </li>
+          `).join('')}
+        </ul>
+        <div style="font-weight: var(--font-weight-medium); margin-top: var(--space-8);">
+          Store Total: $${total.toFixed(2)}
+        </div>
+      </div>
+    `;
+  }
+  
+  shoppingStrategy.innerHTML = strategyHTML;
+}
+
+// Clear the shopping cart
+function clearCart() {
+  cartItems = [];
+  displayCart();
+  updateCartTotals();
+}
+
+// Populate item select dropdown for trend chart
+function populateItemSelect() {
+  // Clear existing options except the first one
+  trendItemSelect.innerHTML = '<option value="">Select an item to track</option>';
+  
+  // Get unique items from the data
+  const uniqueItems = [...new Set(groceryData.flatMap(store => 
+    store.items.map(item => item.name)
+  ))].sort();
+  
+  // Add options to select
+  uniqueItems.forEach(item => {
+    const option = document.createElement('option');
+    option.value = item;
+    option.textContent = item;
+    trendItemSelect.appendChild(option);
+  });
+}
+
+// Update price trend chart when item selection changes
+function updatePriceChart() {
+  const selectedItem = trendItemSelect.value;
+  
+  if (!selectedItem) {
+    // Clear chart if no item selected
+    if (priceChart) {
+      priceChart.destroy();
+      priceChart = null;
+    }
+    return;
+  }
+  
+  // Get price data for selected item across all dates and stores
+  const chartData = {
+    labels: [],
+    datasets: []
+  };
+  
+  // Get all unique dates and sort them
+  const dates = [...new Set(groceryData.map(item => item.date))].sort();
+  chartData.labels = dates.map(formatDate);
+  
+  // Colors for each store
+  const storeColors = {
+    'Kroger': '#1FB8CD',
+    'Aldi': '#FFC185',
+    'Walmart': '#B4413C',
+    'Costco': '#5D878F'
+  };
+  
+  // Create datasets for each store
+  stores.forEach(store => {
+    const data = [];
+    
+    dates.forEach(date => {
+      // Find store data for this date
+      const storeData = groceryData.find(item => 
+        item.store === store && item.date === date
+      );
+      
+      // Find item price in this store on this date
+      if (storeData) {
+        const itemData = storeData.items.find(item => item.name === selectedItem);
+        data.push(itemData ? itemData.price : null);
+      } else {
+        data.push(null);
+      }
+    });
+    
+    // Only add dataset if there's at least one price point
+    if (data.some(price => price !== null)) {
+      chartData.datasets.push({
+        label: store,
+        data: data,
+        borderColor: storeColors[store],
+        backgroundColor: 'transparent',
+        pointBackgroundColor: storeColors[store],
+        tension: 0.1,
+        pointRadius: 4,
+        pointHoverRadius: 6
+      });
+    }
+  });
+  
+  // Create or update chart
+  const ctx = document.getElementById('priceChart').getContext('2d');
+  
+  if (priceChart) {
+    priceChart.destroy();
+  }
+  
+  priceChart = new Chart(ctx, {
+    type: 'line',
+    data: chartData,
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        tooltip: {
+          callbacks: {
+            label: function(context) {
+              return context.dataset.label + ': $' + context.raw.toFixed(2);
+            }
+          }
+        },
+        title: {
+          display: true,
+          text: 'Price Trends: ' + selectedItem,
+          font: {
+            size: 16
+          }
+        },
+        legend: {
+          position: 'bottom'
+        }
+      },
+      scales: {
+        y: {
+          beginAtZero: false,
+          ticks: {
+            callback: function(value) {
+              return '$' + value.toFixed(2);
+            }
+          },
+          title: {
+            display: true,
+            text: 'Price ($)'
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Date'
+          }
+        }
+      }
+    }
+  });
+}
+
+// Format date for chart labels
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+}
+
+// Generate historical data for trends if not available
+function generateHistoricalData(data) {
+  // If we already have multiple weeks of data, return as is
+  const dates = [...new Set(data.map(item => item.date))];
+  if (dates.length >= 4) {
+    return data;
+  }
+  
+  // Get the most recent date
+  const currentDate = new Date(dates.sort().reverse()[0]);
+  
+  // Generate data for previous weeks
+  const enhancedData = [...data];
+  const uniqueStores = [...new Set(data.map(item => item.store))];
+  
+  for (let i = 1; i <= 3; i++) {
+    // Create date for previous week
+    const previousDate = new Date(currentDate);
+    previousDate.setDate(previousDate.getDate() - (7 * i));
+    const dateString = previousDate.toISOString().split('T')[0];
+    
+    // For each store, create historical data
+    uniqueStores.forEach(store => {
+      const currentStoreData = data.find(item => item.store === store);
+      
+      if (currentStoreData) {
+        const historicalItems = currentStoreData.items.map(item => {
+          // Create a price variation within +/- 8%
+          const variation = 0.92 + (Math.random() * 0.16);
+          return {
+            ...item,
+            price: parseFloat((item.price * variation).toFixed(2))
+          };
+        });
+        
+        enhancedData.push({
+          date: dateString,
+          store: store,
+          location: currentStoreData.location,
+          items: historicalItems
+        });
+      }
+    });
+  }
+  
+  return enhancedData;
+}
+
+// Initialize the application when the DOM is ready
+document.addEventListener('DOMContentLoaded', initApp);
