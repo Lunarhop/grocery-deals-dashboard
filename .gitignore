@@ -1,0 +1,19 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+venv/
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Environment files
+.env

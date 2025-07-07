@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Southeast Michigan Grocery Deals Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="dashboard-header">
+            <h1>🛒 Southeast Michigan Grocery Deals Dashboard</h1>
+            <div class="header-info">
+                <div class="current-date">Today: <span id="current-date"></span></div>
+                <div class="last-updated">Last Updated: <span id="last-updated">June 19, 2025, 7:07 AM EDT</span></div>
+            </div>
+        </header>
+
+        <!-- Controls Section -->
+        <section class="controls-section">
+            <div class="controls-grid">
+                <!-- Store Selection Panel -->
+                <div class="control-group">
+                    <h3>🏪 Select Stores</h3>
+                    <div class="store-toggles">
+                        <button class="btn btn--outline store-toggle active" data-store="Kroger">
+                            Kroger <span class="store-distance">(15 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="Aldi">
+                            Aldi <span class="store-distance">(15 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="Walmart">
+                            Walmart <span class="store-distance">(15 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="Costco">
+                            Costco <span class="store-distance">(45 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="Sam's Club">
+                            Sam's Club <span class="store-distance">(45 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="GFS (Burton)">
+                            GFS Burton <span class="store-distance">(35 mi)</span>
+                        </button>
+                        <button class="btn btn--outline store-toggle active" data-store="GFS (Rochester)">
+                            GFS Rochester <span class="store-distance">(50 mi)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="control-group">
+                    <h3>🏷️ Filter by Category</h3>
+                    <select class="form-control" id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="Essentials">Essentials</option>
+                        <option value="Household">Household</option>
+                        <option value="Specialty">Specialty</option>
+                        <option value="Meat & Deli">Meat & Deli</option>
+                    </select>
+                </div>
+
+                <!-- View Toggle -->
+                <div class="control-group">
+                    <h3>📋 View Mode</h3>
+                    <div class="view-toggle">
+                        <button class="btn btn--primary view-btn active" data-view="table">Table View</button>
+                        <button class="btn btn--outline view-btn" data-view="cards">Card View</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Best Deals Section -->
+        <section class="best-deals-section">
+            <h2>🔥 Top 5 Best Deals This Week</h2>
+            <div class="best-deals-grid" id="best-deals-grid">
+                <!-- Best deals will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Price Comparison Section -->
+        <section class="price-comparison-section">
+            <div class="section-header">
+                <h2>📊 Price Comparison</h2>
+                <div class="sort-controls">
+                    <label for="sort-select">Sort by:</label>
+                    <select class="form-control" id="sort-select">
+                        <option value="name">Item Name</option>
+                        <option value="category">Category</option>
+                        <option value="lowest-price">Lowest Price</option>
+                        <option value="highest-savings">Highest Savings</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Table View -->
+            <div class="table-view" id="table-view">
+                <div class="table-container">
+                    <table class="price-table" id="price-table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Category</th>
+                                <th>Kroger</th>
+                                <th>Aldi</th>
+                                <th>Walmart</th>
+                                <th>Costco</th>
+                                <th>Sam's Club</th>
+                                <th>GFS Burton</th>
+                                <th>GFS Rochester</th>
+                                <th>Best Deal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="price-table-body">
+                            <!-- Table rows will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Card View -->
+            <div class="card-view hidden" id="card-view">
+                <div class="cards-grid" id="cards-grid">
+                    <!-- Cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <h2>📈 Price Comparison Charts</h2>
+            <div class="charts-grid">
+                <div class="chart-container">
+                    <h3>Milk Price Comparison</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1750331455/pplx_code_interpreter/c1d6329f_ybigwd.jpg" alt="Milk price comparison across stores" class="chart-image">
+                </div>
+                <div class="chart-container">
+                    <h3>Overall Price Comparison</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1750331578/pplx_code_interpreter/c1106f39_mvgwin.jpg" alt="Overall grocery price comparison" class="chart-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Savings Calculator -->
+        <section class="savings-calculator-section">
+            <h2>💰 Savings Calculator</h2>
+            <div class="calculator-grid">
+                <div class="calculator-controls">
+                    <h3>Select Items to Calculate Savings</h3>
+                    <div class="calculator-items" id="calculator-items">
+                        <!-- Calculator items will be populated by JavaScript -->
+                    </div>
+                    <div class="calculator-stores">
+                        <h4>Compare with preferred store:</h4>
+                        <select class="form-control" id="comparison-store">
+                            <option value="Kroger">Kroger</option>
+                            <option value="Aldi">Aldi</option>
+                            <option value="Walmart">Walmart</option>
+                            <option value="Costco">Costco</option>
+                            <option value="Sam's Club">Sam's Club</option>
+                            <option value="GFS (Burton)">GFS Burton</option>
+                            <option value="GFS (Rochester)">GFS Rochester</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="calculator-results">
+                    <div class="savings-summary">
+                        <h3>Potential Savings</h3>
+                        <div class="savings-amount">
+                            <span class="savings-total" id="savings-total">$0.00</span>
+                            <span class="savings-label">Total Savings</span>
+                        </div>
+                        <div class="savings-details" id="savings-details">
+                            <p>Select items to see potential savings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Price Alerts Section -->
+        <section class="price-alerts-section">
+            <h2>🔔 Price Alerts</h2>
+            <div class="alerts-grid">
+                <div class="alert-setup">
+                    <h3>Set Price Alerts</h3>
+                    <div class="alert-form">
+                        <div class="form-group">
+                            <label class="form-label" for="alert-item">Item</label>
+                            <select class="form-control" id="alert-item">
+                                <option value="">Select an item</option>
+                                <option value="Milk (Gallon)">Milk (Gallon)</option>
+                                <option value="Eggs (Dozen)">Eggs (Dozen)</option>
+                                <option value="Dawn Dish Soap (22oz)">Dawn Dish Soap (22oz)</option>
+                                <option value="Irish Butter (8oz)">Irish Butter (8oz)</option>
+                                <option value="Bacon (12oz)">Bacon (12oz)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="alert-price">Alert when price drops below</label>
+                            <input type="number" class="form-control" id="alert-price" placeholder="$0.00" step="0.01" min="0">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="alert-store">Store</label>
+                            <select class="form-control" id="alert-store">
+                                <option value="">Any store</option>
+                                <option value="Kroger">Kroger</option>
+                                <option value="Aldi">Aldi</option>
+                                <option value="Walmart">Walmart</option>
+                                <option value="Costco">Costco</option>
+                                <option value="Sam's Club">Sam's Club</option>
+                                <option value="GFS (Burton)">GFS Burton</option>
+                                <option value="GFS (Rochester)">GFS Rochester</option>
+                            </select>
+                        </div>
+                        <button class="btn btn--primary" id="add-alert-btn">Add Alert</button>
+                    </div>
+                </div>
+                <div class="active-alerts">
+                    <h3>Active Alerts</h3>
+                    <div class="alerts-list" id="alerts-list">
+                        <div class="alert-item">
+                            <div class="alert-details">
+                                <strong>Milk (Gallon)</strong> - Alert when below $2.50
+                                <div class="alert-store">Any store</div>
+                            </div>
+                            <button class="btn btn--outline btn--sm">Remove</button>
+                        </div>
+                        <div class="alert-item">
+                            <div class="alert-details">
+                                <strong>Eggs (Dozen)</strong> - Alert when below $2.00
+                                <div class="alert-store">Aldi</div>
+                            </div>
+                            <button class="btn btn--outline btn--sm">Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <p>Prices are estimates and may vary. Please verify current prices at stores. Data sourced from various retailers in Southeast Michigan.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
